@@ -88,15 +88,3 @@ MySQL (exemplo):
 CREATE DATABASE exemplo;
 USE exemplo;
 ```
-
-Deploy automático
-
-Adicionei um workflow GitHub Actions para publicar o site no GitHub Pages (`.github/workflows/deploy_pages.yml`). Ao dar push em `main`, a action fará upload do conteúdo do repositório e disparará o deploy Pages. Nas configurações do repositório (Settings → Pages) confirme a fonte caso necessário.
-
-Próximos passos
-
-- Posso substituir os emojis por ícones SVG personalizados.
-- Posso criar badges do tipo `shields.io` no topo do `README.md`.
-- Posso abrir um PR com as mudanças ou commitar direto no `main` (você decide).
-
-Quer que eu adicione ícones SVG personalizados e badges do `shields.io` agora?
