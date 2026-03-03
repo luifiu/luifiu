@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Codespace Dinossauro — Showcase</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="stage">
+    <section class="scene">
+      <div class="ground"></div>
+      <div class="dino-wrap">
+        <!-- simples dinossauro SVG estilizado -->
+        <svg class="dino" viewBox="0 0 200 120" aria-hidden="true">
+          <g class="dino-body">
+            <ellipse cx="70" cy="70" rx="50" ry="30"/>
+            <circle cx="120" cy="50" r="18"/>
+            <rect x="40" y="75" width="12" height="20" rx="4"/>
+            <rect x="70" y="75" width="12" height="20" rx="4"/>
+            <rect x="100" y="75" width="12" height="20" rx="4"/>
+            <path class="tail" d="M20 70 Q10 60 0 65 Q10 75 20 70"/>
+            <circle cx="128" cy="44" r="3" fill="#111"/>
+          </g>
+        </svg>
+      </div>
+
+      <aside class="panel">
+        <h1>Codespace Dinossauro</h1>
+        <p>Cliques nas fichas para ver descrições. Destaque das minhas linguagens:</p>
+        <div class="langs" id="langs">
+          <button class="lang" data-lang="html"><img class="badge" src="assets/icons/html.svg" alt="HTML icon"><span class="label">HTML</span></button>
+          <button class="lang" data-lang="css"><img class="badge" src="assets/icons/css.svg" alt="CSS icon"><span class="label">CSS</span></button>
+          <button class="lang" data-lang="javascript"><img class="badge" src="assets/icons/javascript.svg" alt="JavaScript icon"><span class="label">JavaScript</span></button>
+          <button class="lang" data-lang="python"><img class="badge" src="assets/icons/python.svg" alt="Python icon"><span class="label">Python</span></button>
+          <button class="lang" data-lang="java"><img class="badge" src="assets/icons/java.svg" alt="Java icon"><span class="label">Java</span></button>
+          <button class="lang" data-lang="sql"><img class="badge" src="assets/icons/sql.svg" alt="SQL icon"><span class="label">SQL</span></button>
+          <button class="lang" data-lang="mysql"><img class="badge" src="assets/icons/mysql.svg" alt="MySQL icon"><span class="label">MySQL</span></button>
+        </div>
+        <div id="desc" class="desc">Clique em uma linguagem para saber mais.</div>
+      </aside>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
