@@ -1,13 +1,18 @@
 # Portfólio de Demos — luifiu
 
-Este arquivo contém links rápidos para demos e exemplos hospedados neste repositório.
+Material de apoio do perfil. Os projetos principais estão listados no [README](README.md).
 
-- Demo principal (página animada do dinossauro): [Abrir demo](index.html)
-- Guia rápido e instruções: [README_CODESPACE.md](README_CODESPACE.md)
+## Neste repositório
 
-Exemplos de uso
+- [`index.html`](index.html): página animada (HTML/CSS/SVG) com fichas interativas das linguagens que uso.
+- [`examples/`](examples/): exemplos curtos de sintaxe em HTML, CSS, JavaScript, Python, Java, SQL e MySQL.
+- [`README_CODESPACE.md`](README_CODESPACE.md): como rodar a página localmente.
 
-- `index.html` — showcase interativo com linguagens destacadas.
-- `README_CODESPACE.md` — instruções para rodar localmente.
+## Como rodar
 
-Se quiser, posso adicionar páginas de exemplo separadas (ex.: `examples/html.html`, `examples/python.md`) e ligar cada badge diretamente a elas.
+```bash
+git clone https://github.com/luifiu/luifiu.git
+cd luifiu
+python3 -m http.server 8000
+# abra http://localhost:8000/index.html
+```
